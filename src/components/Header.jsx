@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 const headerNav = [
     {
@@ -25,13 +25,22 @@ const headerNav = [
 
 
 const Header = () => {
+    const [show, setShow] = useState(false);
+
+    const toggleMenu = () => {
+        setShow((prevShow) => (!prevShow));
+    };
+
     return (
         <header id="header" role="banner">
             <div className="header__inner">
                 <div className="header__logo">
-                    <a href="/">portfolio<em>vite</em></a>
+                    <a href="/">portfolio<em>react.js</em></a>
                 </div>
-                <nav className="header__nav" role="navigation" aria-label="메인 메뉴">
+                <nav className={`header__nav ${show ? "show" : ""}`}
+                    role="navigation"
+                    aria-label="메인 메뉴"
+                >
                     <ul>
                         {headerNav.map((nav, key) => (
                             <li key={key}>
@@ -44,9 +53,10 @@ const Header = () => {
                     className="header__nav__mobile"
                     id="headerToggle"
                     aria-controls="primary-menu"
-                    aria-expanded="false"
+                    aria-expanded={show ? "true" : "false"}
                     role="button"
                     tabindex="0"
+                    onClick={toggleMenu}
                 >
                     <span></span>
                 </div>
