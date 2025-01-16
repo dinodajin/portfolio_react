@@ -1,5 +1,29 @@
 import React from "react";
 
+const headerNav = [
+    {
+        title: "intro",
+        url: "#intro"
+    },
+    {
+        title: "skill",
+        url: "#skill"
+    },
+    {
+        title: "site",
+        url: "#site"
+    },
+    {
+        title: "port",
+        url: "#port"
+    },
+    {
+        title: "contact",
+        url: "#contact"
+    }
+];
+
+
 const Header = () => {
     return (
         <header id="header" role="banner">
@@ -9,11 +33,11 @@ const Header = () => {
                 </div>
                 <nav className="header__nav" role="navigation" aria-label="메인 메뉴">
                     <ul>
-                        <li><a href="#intro">intro</a></li>
-                        <li><a href="#skill">skill</a></li>
-                        <li><a href="#site">site</a></li>
-                        <li><a href="#port">portfolio</a></li>
-                        <li><a href="#contact">contact</a></li>
+                        {headerNav.map((nav) => (
+                            <li>
+                                <a href={nav.url}>{nav.title}</a>
+                            </li>
+                        ))}
                     </ul>
                 </nav>
                 <div
