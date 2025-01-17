@@ -1,13 +1,13 @@
-#port {
+#project {
     width: 100%;
     margin-top: 30vh;
     // overflow: hidden;
 }
 
-.port__inner {
+.project__inner {
     padding: 16px;
 
-    .port__title {
+    .project__title {
         width: 100%;
         height: 5vw;
         font-size: 4vw;
@@ -27,12 +27,12 @@
         }
     }
 
-    .port__wrap {
+    .project__wrap {
         display: flex;
         flex-wrap: wrap;
         width: 7000px;
 
-        .port__item {
+        .project__item {
             width: 500px;
             height: 70vh;
             background-color: var(--subBg100);
