@@ -5,8 +5,8 @@ import about from "../assets/img/about.jpg";
 const Intro = () => {
 
     const introText = {
-        title: "web developer",
-        desc: ["??", "??", "??"],
+        title: "backend developer",
+        desc: ["Scalability Seeker"],
     };
 
     return (
@@ -24,9 +24,7 @@ const Intro = () => {
                 </div>
                 <div className="intro__text">
                     <div className="text">
-                        <div>{introText.desc[0]}</div>
-                        <div>{introText.desc[1]}</div>
-                        <div>{introText.desc[2]}</div>
+                        <div>{introText.desc}</div>
                     </div>
                     <div className="img">
                         <img src={about} alt="어바웃" />
