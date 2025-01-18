@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Intro from "../components/Intro";
+import Education from "../components/Education"
 import Skill from "../components/Skill";
 import Project from "../components/Project";
 import Contact from "../components/Contact";
@@ -15,6 +16,7 @@ const HomeView = () => {
             <Header />
             <Main>
                 <Intro />
+                <Education />
                 <Skill />
                 <Project />
                 <Contact />
