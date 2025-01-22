@@ -9,9 +9,9 @@ const Footer = () => {
             link: "https://github.com/dinodajin",
         },
         {
-            title: "blog",
-            desc: "블러그에 오시면 더 많은 정보를 볼 수 있습니다.",
-            link: "https://webstoryboy.co.kr",
+            title: "velog",
+            desc: "벨로그에 오시면 더 많은 정보를 볼 수 있습니다.",
+            link: "https://velog.io/@da8411/posts",
         },
     ];
 
