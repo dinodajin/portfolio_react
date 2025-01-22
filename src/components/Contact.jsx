@@ -12,7 +12,7 @@ const Contact = () => {
     return (
         <section id="contact">
             <div className="contact__inner">
-                <h2 className="contact__title">Contact</h2>
+                <div className="contact__title"> contact<em>연락처</em></div>
                 <div className="contact__lines" aria-hidden="true">
                     <span className="line"></span>
                     <span className="line"></span>
