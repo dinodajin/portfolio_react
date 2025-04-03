@@ -3,8 +3,6 @@ import React from "react";
 import pro01 from "../assets/img/appy.png";
 import pro02 from "../assets/img/library.png";
 import pro03 from "../assets/img/android.png";
-import pro04 from "../assets/img/about.jpg";
-import pro05 from "../assets/img/about.jpg";
 
 const Project = () => {
 
@@ -36,24 +34,6 @@ const Project = () => {
             code: "https://github.com/dinodajin/android_super_resolution",
             view: "https://github.com/dinodajin/android_super_resolution",
 
-        },
-        {
-            num: "04",
-            title: "모던한 포트폴리오",
-            desc: "블랙 컨셉과 애니메이션이 돋보이는 포트폴리오 사이트입니다. GSAP를 통한 애니메이션과 NEXT.js를 통해 제작된 포트폴리오입니다. pin 애니메이션을 통한 포폴 작업물의 표현 능력이 돋보이는 사이트입니다.",
-            img: pro04,
-            code: "https://github.com/dlgnsrb227/portfolio-next",
-            view: "https://hoongportfolio-next.netlify.app/",
-            name: "이훈* 포트폴리오",
-        },
-        {
-            num: "05",
-            title: "가로모드의 정석 포트폴리오",
-            desc: "이 포트폴리오는 가로모드를 통해 눈에 띄는 애니메이션 효과를 가진 멋진 작품들이 펼쳐집니다. 세션 간의 부드러운 전환과 흥미로운 움직임이 사용자들에게 색다른 경험을 선사합니다. 사이트에는 탁월한 디자인과 창의적인 애니메이션들이 어우러져, 사용자들에게 인상적인 시각적인 효과를 줍니다. 애니메이션은 적절히 사용되어 사이트를 더욱 생동감 있게 만들어주는 포트폴리오입니다.",
-            img: pro05,
-            code: "/",
-            view: "https://junseungpark.github.io/portfolio/index3.html",
-            name: "박준* 포트폴리오",
         },
     ];
 
