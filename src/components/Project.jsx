@@ -1,7 +1,7 @@
 import React from "react";
 
 import pro01 from "../assets/img/appy.png";
-import pro02 from "../assets/img/about.jpg";
+import pro02 from "../assets/img/library.png";
 import pro03 from "../assets/img/about.jpg";
 import pro04 from "../assets/img/about.jpg";
 import pro05 from "../assets/img/about.jpg";
@@ -21,12 +21,12 @@ const Project = () => {
         },
         {
             num: "02",
-            title: "도서관 공모전",
-            desc: "이 사이트는 정말 인상적인 포트폴리오입니다. 특히 스무스한 효과와 가로 모드드 높은 퀄리티를 자랑합니다. 디테일과 꼼꼼함이 넘치는 포트폴리오는 개발자의 뛰어난 능력을 엿볼 수 있습니다. GSAP와 React.js를 이용하여 사이트를 표현한 것은 기술적인 능력과 창의성을 강조하는데, 부족함이 없으며, 세심한 코딩과 디테일한 작업으로 그의 개발 감각과 능력이 빛을 발휘한 것 같습니다. ",
+            title: "공공데이터를 활용한 도서관 공모전",
+            desc: "공공데이터 활용 도서관 공모전에 참여하며, 도서관 사서와의 인터뷰를 통해 '훼손 도서의 파악이 어렵다'는 요구사항을 파악하여 훼손 도서 파악 서비스를 개발하였습니다. 먼저 공공데이터 API를 활용해 데이터를 수집하고, 이를 기반으로 백엔드에서 필요한 데이터베이스를 설계 및 구축했습니다. 또한, unit 테스트 코드를 작성해 시스템의 안정성을 확보하고, Swagger를 통해 실제 데이터 연동을 검증했습니다.",
             img: pro02,
             code: "https://github.com/dinodajin/LibraryCompetition-Backend",
-            // view: "https://portfolio-313.web.app/",
-            // name: "천설* 포트폴리오",
+            view: "https://github.com/dinodajin/LibraryCompetition-Backend",
+            view2: "https://github.com/dinodajin/LibraryCompetition-Frontend",
         },
         {
             num: "03",
