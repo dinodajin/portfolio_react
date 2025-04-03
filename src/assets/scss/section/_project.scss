@@ -34,7 +34,7 @@
 
         .project__item {
             width: 500px;
-            height: 70vh;
+            height: 50vh;
             background-color: var(--subBg100);
             padding: 2.5rem;
             margin-right: 20px;
@@ -93,6 +93,7 @@
                     border-radius: 5px;
                     filter: saturate(0%);
                     transition: all 0.3s;
+                    height: 200px;
                 }
 
                 &:hover {
