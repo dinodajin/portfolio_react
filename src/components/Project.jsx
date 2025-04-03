@@ -2,7 +2,7 @@ import React from "react";
 
 import pro01 from "../assets/img/appy.png";
 import pro02 from "../assets/img/library.png";
-import pro03 from "../assets/img/about.jpg";
+import pro03 from "../assets/img/android.png";
 import pro04 from "../assets/img/about.jpg";
 import pro05 from "../assets/img/about.jpg";
 
@@ -30,12 +30,12 @@ const Project = () => {
         },
         {
             num: "03",
-            title: "동영상 화질 개선",
-            desc: "ESRGAN 모델을 활용하여 안드로이드에서 동영상 화질 개선",
+            title: "화질 개선 앱 개발",
+            desc: "안드로이드에서 ESRGAN 모델을 활용하여 기기에 저장된 이미지와 동영상의 화질 개선 프로젝트를 진행했습니다. 이 프로젝트에서는 Java, TensorFlow를 사용하여 ESRGAN 모델을 최적화하여 모바일 환경에서 사용자가 촬영한 저해상도 이미지와 동영상을 고해상도로 변환하는 기능을 구현하였습니다. ",
             img: pro03,
-            code: "https://github.com/seolhee313/PORTFOLIO-REACT",
-            view: "https://portfolio-313.web.app/",
-            name: "천설* 포트폴리오",
+            code: "https://github.com/dinodajin/android_super_resolution",
+            view: "https://github.com/dinodajin/android_super_resolution",
+
         },
         {
             num: "04",
@@ -73,7 +73,9 @@ const Project = () => {
                             <h3 className="title">{project.title}</h3>
                             <p className="desc">{project.desc}</p>
                             <a href={project.view} target="_blank" className="site" rel="noreferrer">GITHUB</a>
-                            <a href={project.view2} target="_blank" className="site" rel="noreferrer">GITHUB</a>
+                            {project.view2 && (
+                                <a href={project.view2} target="_blank" className="site" rel="noreferrer">GITHUB</a>
+                            )}
                         </article>
                     ))}
                 </div>
