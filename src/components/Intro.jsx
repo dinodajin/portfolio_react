@@ -5,8 +5,8 @@ import about from "../assets/img/about.jpg";
 const Intro = () => {
 
     const introText = {
-        title: "backend developer",
-        desc: ["Scalability Seeker"],
+        title: "Embedded Engineer",
+        // desc: ["Scalability Seeker"],
     };
 
     return (
