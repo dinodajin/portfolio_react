@@ -13,7 +13,10 @@ const Education = () => {
             title: "아주 대학교 졸업 (2019.03 ~ 2023.08)",
         },
         {
-            title: "LG전자 DX School 1기 수료 (2024.06 ~ 1014.12)",
+            title: "LG전자 DX School 1기 수료 (2024.06 ~ 2024.12)",
+        },
+        {
+            title: "SSAFY 14기 (2025.07 ~ )",
         },
     ];
 
@@ -21,11 +24,17 @@ const Education = () => {
         <section id="education">
             <div className="education__inner">
                 <h2 className="education__title">
-                    Education <em>이력 사항</em>
+                    Education 
+                    <em style={{ 
+                        display: "inline-block", 
+                        verticalAlign: "bottom", 
+                        marginBottom: "11px",
+                        marginLeft: "10px" 
+                    }}>이력 사항</em>
                 </h2>
-                <div className="education__desc">
+                <div className="education__desc" style={{ marginTop: "50px" }}>
                     {educationText.map((edu, key) => (
-                        <div key={key}>
+                        <div key={key} style={{ marginBottom: "30px" }}>
                             <h3>{edu.title}</h3>
                         </div>
                     ))}
