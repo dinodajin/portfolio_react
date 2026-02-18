@@ -1,5 +1,6 @@
 #project {
     width: 100%;
+    height: 160vh;
     margin-top: 30vh;
     // overflow: hidden;
 }
@@ -8,6 +9,8 @@
     padding: 16px;
 
     .project__title {
+        position: sticky;
+        top: 70px;
         width: 100%;
         height: 5vw;
         font-size: 4vw;
