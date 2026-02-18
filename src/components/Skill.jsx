@@ -20,6 +20,11 @@ const skillData = [
         title: "AI & Vision",
         desc: ["OpenCV", "TensorFlow", "PyTorch"],
         info: ["Object Detection", "Image Processing", "Model Inference"],
+    },
+    {
+        title: "Certifications",
+        desc: ["정보처리기사", "SQLD", "ADsP", "Toeic Speaking IH"],
+        info: ["한국산업인력공단", "한국데이터산업진흥원", "YBM"],
     }
 ];
 
