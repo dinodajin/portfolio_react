@@ -25,12 +25,6 @@ const Education = () => {
             <div className="education__inner">
                 <h2 className="education__title">
                     Education 
-                    <em style={{ 
-                        display: "inline-block", 
-                        verticalAlign: "bottom", 
-                        marginBottom: "11px",
-                        marginLeft: "10px" 
-                    }}>이력 사항</em>
                 </h2>
                 <div className="education__desc" style={{ marginTop: "50px" }}>
                     {educationText.map((edu, key) => (

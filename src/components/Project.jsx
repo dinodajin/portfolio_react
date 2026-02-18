@@ -41,7 +41,7 @@ const Project = () => {
         <section id="project">
             <div className="project__inner">
                 <div className="project__title">
-                    project <em>작업물</em>
+                    project
                 </div>
                 <div className="project__wrap">
                     {proText.map((project, key) => (
