@@ -28,7 +28,7 @@ const Skill = () => {
         <section id="skill">
             <div className="skill__inner">
                 <h2 className="skill__title">
-                    Skill Inventory
+                    Skill
                 </h2>
                 <div className="skill__wrap">
                     {skillData.map((skill, key) => (
