@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Intro from "../components/Intro";
 import Education from "../components/Education"
-// import Skill from "../components/Skill";
+import Skill from "../components/Skill";
 import Project from "../components/Project";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
@@ -17,7 +17,7 @@ const HomeView = () => {
             <Main>
                 <Intro />
                 <Education />
-                {/* <Skill /> */}
+                <Skill />
                 <Project />
                 <Contact />
             </Main>
