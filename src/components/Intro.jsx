@@ -1,43 +1,31 @@
 import React from "react";
-
 import about from "../assets/img/about.jpg";
 
 const Intro = () => {
-
     const introText = {
-        title: "Embedded Engineer",
-        // desc: ["Scalability Seeker"],
+        title1: "Full-Stack",
+        title2: "Embedded Engineer",
+        desc: "Embedded engineer fluent in Web & AI",
     };
 
     return (
         <section id="intro">
             <div className="intro__inner">
-                <h1 className="intro__title">{introText.title}</h1>
-                <div className="intro__lines" aria-hidden="true">
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                </div>
-                <div className="intro__text">
-                    <div className="text">
-                        <div>{introText.desc}</div>
-                    </div>
-                    <div className="img">
-                        <img src={about} alt="어바웃" />
+                <div className="intro__profile">
+                    <div className="profile__circle">
+                        <div className="img">
+                            <img src={about} alt="프로필" />
+                        </div>
                     </div>
                 </div>
-                <div className="intro__lines bottom" aria-hidden="true">
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
+
+                <div className="intro__info">
+                    <span className="name">{introText.name}</span>
+                    <h1 className="main__title">
+                        <span className="purple">{introText.title1}</span>
+                        <span>{introText.title2}</span>
+                    </h1>
+                    <p className="desc">{introText.desc}</p>
                 </div>
             </div>
         </section>
